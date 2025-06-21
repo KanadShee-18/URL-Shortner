@@ -1,4 +1,6 @@
-# 🔗 URL Shortener
+# 🔗 ShortNet: URL Shortener
+
+[🔗 Check Out](https://url-shortner-redirector.vercel.app/)
 
 A simple, minimal URL shortener built with **Next.js 15**, **Tailwind CSS**, **shadcn/ui**, **Lucide icons**, **Prisma**, and **PostgreSQL (hosted on Neon DB)**.
 
