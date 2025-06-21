@@ -98,7 +98,7 @@ export const UrlList = ({
                   onLinkVisit();
                 }, 1500);
               }}
-              className="text-indigo-400 underline tracking-wide break-all max-w-full"
+              className="text-indigo-400 underline tracking-wide break-all max-w-full md:max-w-[60%]"
             >
               {shortened_url(url.shortenUrl)}
             </Link>
