@@ -53,7 +53,7 @@ export const UrlList = ({
 
   if (loading) {
     return (
-      <div className="animate-pulse px-5">
+      <div className="animate-pulse px-5 max-w-3xl mx-auto">
         <div className="h-8 bg-accent rounded w-1/4 mb-4"></div>
         <ul className="space-y-2">
           {[1, 2, 3].map((num) => (
@@ -62,7 +62,7 @@ export const UrlList = ({
               className="flex items-center gap-2 rounded-md border bg-card p-4 text-card-foreground justify-between"
             >
               <div className="h-4 bg-accent rounded w-1/2"></div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 w-1/2">
                 <div className="h-5 w-5 bg-accent rounded"></div>
                 <span className="flex items-center gap-2">
                   <div className="h-4 w-4 bg-accent rounded"></div>
@@ -98,7 +98,7 @@ export const UrlList = ({
                   onLinkVisit();
                 }, 1500);
               }}
-              className="text-indigo-400 underline tracking-wide"
+              className="text-indigo-400 underline tracking-wide max-w-1/2 text-wrap"
             >
               {shortened_url(url.shortenUrl)}
             </Link>
@@ -116,7 +116,7 @@ export const UrlList = ({
                   <CopyCheckIcon className="size-5" />
                 )}
               </Button>
-              <span className="flex text-indigo-200 items-center flex-row gap-x-2">
+              <span className="flex text-indigo-200 items-center flex-row gap-x-2 flex-nowrap">
                 <ScanEyeIcon className="size-4 text-indigo-200/70" />
                 {url.visits} views
               </span>
