@@ -102,7 +102,7 @@ export const UrlList = ({
             >
               {shortened_url(url.shortenUrl)}
             </Link>
-            <div className="flex items-center gap-5 md:gap-10">
+            <div className="flex items-center gap-5 md:gap-10 flex-nowrap">
               <Button
                 title="Copy Link"
                 variant={"outline"}

@@ -5,7 +5,7 @@ A simple, minimal URL shortener built with **Next.js 15**, **Tailwind CSS**, **s
 ---
 
 ## 📸UI Preview
-
+![UI View](public/ui-view.png)
 
 ## ✨ Features
 
