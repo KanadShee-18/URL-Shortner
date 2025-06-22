@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { Toaster } from "sonner";
 
 const jet_mono = JetBrains_Mono({
@@ -28,6 +29,7 @@ export default function RootLayout({
         <div className="w-screen min-h-screen bg-black/70 backdrop-blur-xs">
           <div className="relative md:max-w-2xl lg:max-w-[1260px] mx-auto">
             {children}
+            <Analytics />
             <Toaster
               theme="dark"
               duration={3000}

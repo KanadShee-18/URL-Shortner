@@ -1,12 +1,13 @@
 # 🔗 ShortNet: URL Shortener
 
-[🔗 Check Out](https://url-shortner-redirector.vercel.app/)
+[Check Out🌐](https://url-shortner-redirector.vercel.app/)
 
 A simple, minimal URL shortener built with **Next.js 15**, **Tailwind CSS**, **shadcn/ui**, **Lucide icons**, **Prisma**, and **PostgreSQL (hosted on Neon DB)**.
 
 ---
 
 ## 📸UI Preview
+
 ![UI View](public/ui-view.png)
 
 ## ✨ Features
@@ -22,14 +23,14 @@ A simple, minimal URL shortener built with **Next.js 15**, **Tailwind CSS**, **s
 
 ## 🛠️ Tech Stack
 
-| Tool       | Usage                     |
-|------------|---------------------------|
-| Next.js 15 | React framework           |
-| Tailwind   | Styling and layout        |
-| shadcn/ui  | UI components             |
-| Lucide     | Icons                     |
-| Prisma     | ORM for database queries  |
-| Neon       | PostgreSQL cloud DB       |
+| Tool       | Usage                    |
+| ---------- | ------------------------ |
+| Next.js 15 | React framework          |
+| Tailwind   | Styling and layout       |
+| shadcn/ui  | UI components            |
+| Lucide     | Icons                    |
+| Prisma     | ORM for database queries |
+| Neon       | PostgreSQL cloud DB      |
 
 ---
 
@@ -68,11 +69,9 @@ npx prisma migrate dev
 npm run dev
 ```
 
-
 ## 📄 License
 
 [LICENSE](LICENCE)
-
 
 ## ⭐ Support
 
